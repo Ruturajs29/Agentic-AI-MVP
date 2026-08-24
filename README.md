@@ -97,22 +97,6 @@ Two mechanisms prevent token overflows on long interviews:
 
 This makes the system safe for max_questions = 40-50.
 
----
-
-## Learning Material
-
-Read the `learning/` docs in order — each builds on the previous:
-
-| # | File | What You'll Learn |
-|---|------|-------------------|
-| 1 | `01_what_is_an_agent.md` | The fundamental agent mental model |
-| 2 | `02_langchain_core.md` | Every LangChain abstraction used here |
-| 3 | `03_langgraph_core.md` | State, graph, routing, persistence |
-| 4 | `04_execution_trace.md` | Trace a full Q&A turn at the code level |
-| 5 | `05_multi_agent_patterns.md` | Scale to your internship project |
-
----
-
 ## Stack
 
 - **LLM:** Groq `llama-3.3-70b-versatile`
